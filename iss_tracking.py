@@ -76,5 +76,3 @@ def update():
 update()
 
 root.mainloop()
-
-# Testing for test-branch!
