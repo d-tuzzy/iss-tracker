@@ -50,7 +50,7 @@ lon_label.grid(row=0, column=2, padx=5)
 
 
 # MAP AND DOT SETUP
-img = Image.open("world_map.png")  # Opens image file
+img = Image.open("assets/world_map.png")  # Opens image file
 photo = ImageTk.PhotoImage(img)  # Makes it compatible with Tkinter
 
 canvas = tk.Canvas(root, width=1280, height=555) # Canvas that dot can move in
