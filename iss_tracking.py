@@ -57,7 +57,6 @@ canvas = tk.Canvas(root, width=1280, height=555) # Canvas that dot can move in
 canvas.create_image(0, 0, image=photo, anchor="nw")
 canvas.pack()
 
-dot = canvas.create_oval(0, 0, 6, 6, fill="red")
 
 def find_position(pLat, pLon):
     x = ((pLon + 180) / 360) * 1280
@@ -80,7 +79,7 @@ def update():
         dot_x = dot_coords[0]
         dot_y = dot_coords[1]
         print(dot_x, dot_y)
-        #canvas.place(dot, x=dot_x, y=dot_y)
+        dot = canvas.create_oval(dot_x, dot_y, dot_x+6, dot_y+6, fill="red")
         
     except:
         utctime_label.config(text="None")
