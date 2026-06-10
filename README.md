@@ -47,7 +47,7 @@ python iss-tracker.py
 ## Notes
 
 - Requires Python 3.6+
-- Requires Tkinter and datetime modules too. If these don't come as standard, install alongside the [others](#installing--dependencies).
+- Requires Tkinter and datetime modules too. If these don't come as standard, install alongside the [others](#installing-dependencies).
 - Works on Windows, macOS, and Linux
 
 ## License
