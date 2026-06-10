@@ -26,10 +26,16 @@ cd iss-tracker
 1. Click **Code → Download ZIP** on GitHub.  
 2. Extract the ZIP to a folder of your choice (for example, `C:\Users\Dan\Downloads\iss-tracker`).  
 3. Open a terminal (PowerShell or CMD on Windows, Terminal on macOS/Linux).  
-4. Navigate to the folder where you extracted the files using `cd`.
+4. Navigate to the folder where you extracted the files.
 
-### Running the script
-Once you are in the project folder, run:
+### Installing Dependencies
+Once the repository has been downloaded, run the following to install the necesary modules:
+
+```bash
+pip install pillow requests
+```
+
+### Running the Program
 
 ```bash
 python iss-tracker.py
@@ -41,7 +47,7 @@ python iss-tracker.py
 ## Notes
 
 - Requires Python 3.6+
-- Requires tkinter, PIL, requests, and datetime modules
+- Requires Tkinter and datetime modules too. If these don't come as standard, install alongside the [others](#installing--dependencies).
 - Works on Windows, macOS, and Linux
 
 ## License
