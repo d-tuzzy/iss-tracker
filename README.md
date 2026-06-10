@@ -36,7 +36,7 @@ python iss-tracker.py
 ```
 
 ## Example Usage
-![no image :/](demo.png)
+![no image :/](assets/demo.png)
 
 ## Notes
 
